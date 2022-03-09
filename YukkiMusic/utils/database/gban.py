@@ -7,7 +7,7 @@
 
 from typing import Dict, List, Union
 
-from YukkiMusic.core.mongo import mongodb
+from AasthaMusicBot.core.mongo import mongodb
 
 gbansdb = db.gban
 
