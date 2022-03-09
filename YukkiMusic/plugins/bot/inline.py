@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,
@@ -13,8 +14,8 @@ from pyrogram.types import (InlineKeyboardButton,
 from youtubesearchpython import VideosSearch
 
 from config import BANNED_USERS, MUSIC_BOT_NAME
-from YukkiMusic import app
-from YukkiMusic.utils.inlinequery import answer
+from AasthaMusicBot import app
+from AasthaMusicBot.utils.inlinequery import answer
 
 
 @app.on_inline_query(~BANNED_USERS)
@@ -64,7 +65,7 @@ async def inline_query_handler(client, query):
 
 __Reply with /play on this searched message to stream it on voice chat.__
 
-⚡️ ** Inline Search By {MUSIC_BOT_NAME} **"""
+⚡️ ** Inline Search By @AsadSupport **"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,

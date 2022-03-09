@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 import random
 import string
@@ -17,20 +18,20 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto,
 from config import (BANNED_USERS, DURATION_LIMIT, DURATION_LIMIT_MIN,
                     PLAYLIST_FETCH_LIMIT, PLAYLIST_IMG_URL, lyrical)
 from strings import get_command
-from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram,
+from AasthaMusicBot import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from YukkiMusic.utils import seconds_to_min, time_to_seconds
-from YukkiMusic.utils.database import (get_chatmode, get_cmode,
+from AasthaMusicBot.utils import seconds_to_min, time_to_seconds
+from AasthaMusicBot.utils.database import (get_chatmode, get_cmode,
                                        is_video_allowed)
-from YukkiMusic.utils.decorators.language import languageCB
-from YukkiMusic.utils.decorators.play import PlayWrapper
-from YukkiMusic.utils.formatters import formats
-from YukkiMusic.utils.inline.play import (livestream_markup,
+from AasthaMusicBot.utils.decorators.language import languageCB
+from AasthaMusicBot.utils.decorators.play import PlayWrapper
+from AasthaMusicBot.utils.formatters import formats
+from AasthaMusicBot.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from YukkiMusic.utils.inline.playlist import botplaylist_markup
-from YukkiMusic.utils.logger import play_logs
-from YukkiMusic.utils.stream.stream import stream
+from AasthaMusicBot.utils.inline.playlist import botplaylist_markup
+from AasthaMusicBot.utils.logger import play_logs
+from AasthaMusicBot.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
@@ -492,7 +493,7 @@ async def anonymous_check(client, CallbackQuery):
 
 
 @app.on_callback_query(
-    filters.regex("YukkiPlaylists") & ~BANNED_USERS
+    filters.regex("AlexaPlaylists") & ~BANNED_USERS
 )
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):

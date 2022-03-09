@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 import asyncio
 from datetime import datetime, timedelta
@@ -17,9 +18,9 @@ from pyrogram.raw import types
 import config
 from config import adminlist, chatstats, clean, userstats
 from strings import get_command
-from YukkiMusic import app, userbot
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (get_active_chats,
+from AasthaMusicBot import app, userbot
+from AasthaMusicBot.misc import SUDOERS
+from AasthaMusicBot.utils.database import (get_active_chats,
                                        get_authuser_names,
                                        get_particular_top,
                                        get_queries, get_served_chats,
@@ -27,8 +28,8 @@ from YukkiMusic.utils.database import (get_active_chats,
                                        is_cleanmode_on, set_queries,
                                        update_particular_top,
                                        update_user_top)
-from YukkiMusic.utils.decorators.language import language
-from YukkiMusic.utils.formatters import alpha_to_int
+from AasthaMusicBot.utils.decorators.language import language
+from AasthaMusicBot.utils.formatters import alpha_to_int
 
 BROADCAST_COMMAND = get_command("BROADCAST_COMMAND")
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS

@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 from pyrogram.types import InlineKeyboardButton
 
@@ -24,8 +25,7 @@ def track_markup(_, videoid, user_id):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
-                callback_data=f"https://t.me/Shayri_Music_Lovers",
+                text=_["CLOSE_BUTTON"], url=f"https://t.me/Shayri_Music_Lovers",
             )
         ],
     ]
@@ -59,7 +59,7 @@ def telegram_markup(_):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text=_["CLOSEMENU_BUTTON"], url=f"https://t.me/Alexa_Help"
             ),
         ],
     ]
@@ -80,8 +80,7 @@ def playlist_markup(_, videoid, user_id, ptype):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
-                callback_data=f"https://t.me/Shayri_Music_Lovers",
+                text=_["CLOSE_BUTTON"], url=f"https://t.me/Shayri_Music_Lovers",
             ),
         ],
     ]
@@ -96,8 +95,7 @@ def livestream_markup(_, videoid, user_id, mode):
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"],
-                callback_data=f"https://t.me/Shayri_Music_Lovers",
+                text=_["CLOSEMENU_BUTTON"], url=f"https://t.me/Shayri_Music_Lovers",
             ),
         ],
     ]
