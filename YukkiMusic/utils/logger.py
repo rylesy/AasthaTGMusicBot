@@ -1,15 +1,16 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 from config import LOG, LOG_GROUP_ID
-from YukkiMusic import app
-from YukkiMusic.utils.database import is_on_off
+from AasthaMusicBot import app
+from AasthaMusicBot.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
@@ -19,17 +20,17 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**ALEXA PLAY LOG**
+**ᴀʟᴇxᴀ ᴘʟᴀʏ ʟᴏɢ**
 
-**Chat:** {message.chat.title} [`{message.chat.id}`]
-**User:** {message.from_user.mention}
-**Username:** @{message.from_user.username}
-**User ID:** `{message.from_user.id}`
-**Chat Link:** {chatusername}
+🗨️ **️ᴄʜᴀᴛ:** {message.chat.title} [`{message.chat.id}`]
+🧑‍🤝‍🧑 **ᴜsᴇʀ:** {message.from_user.mention}
+💳 **ᴜsᴇʀɴᴀᴍᴇ:** @{message.from_user.username}
+🆔 **ᴜsᴇʀ ɪᴅ:** `{message.from_user.id}`
+🔗 **ᴄʜᴀᴛ ʟɪɴᴋ:** {chatusername}
 
-**Query:** {message.text}
+⁉️ **ǫᴜᴇʀʏ:** {message.text}
 
-**StreamType:** {streamtype}"""
+🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** {streamtype}"""
         if message.chat.id != LOG_GROUP_ID:
             try:
                 await app.send_message(
