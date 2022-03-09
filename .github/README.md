@@ -15,7 +15,7 @@
 
 > ⭐️ Thanks to everyone for using Alexa Server, That is the greatest pleasure we have !
 
-### Asad– History
+### Asad– History This Bot Is Clone On [Team Yukki](https://github.com/TeamYukki)
 
 <a href="https://www.youtube.com/JankariKiDuniya"><img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube"></a>
 
