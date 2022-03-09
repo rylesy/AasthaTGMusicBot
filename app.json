@@ -68,7 +68,6 @@
         "value": "",
         "required": true
       },
-              },
         "SUPPORT_GROUP": {
             "description": "if you have group, then fill here without @",
             "required": true,
