@@ -36,16 +36,16 @@ auth_7 : "**Authorised Users List[AUL]:**\n\n"
 auth_8 : "┗ Added By:-"
 
 # PLUGINS - Admins
-admin_1 : "Music is already Paused."
-admin_2 : "🎧 Voicechat Paused by {}!"
-admin_3 : "Music is already resumed."
-admin_4 : "🎧 Voicechat Resumed by {}!"
-admin_5 : "Music is already muted."
-admin_6 : "🎧 Voicechat Muted by {}!"
-admin_7 : "Music is already unmuted."
-admin_8 : "🎧 Voicechat Unmuted by {}!"
-admin_9 : "🎧 Voicechat End/Stopped by {}!"
-admin_10 : "🎧 Voicechat Skipped by {}!. No More Music in Queue."
+admin_1 : "🙈 **ɪᴛᴛᴜ 🤏 sᴇʏ ɴᴏᴏʙ sᴏɴɢ ᴘᴇʜʟʏ ʜᴇ ʀᴜᴋᴀ ʜᴏᴡᴀ ʜᴀɪ**."
+admin_2 : "🎧 **ʟᴏ ᴊɪ ɪs ᴜʟʟᴏ ɴᴇʏ sᴏɴɢ ᴘᴀᴜsᴇ ᴋᴇʀ ᴅɪʏᴀ** {}!"
+admin_3 : "🙈 **ᴏʏᴇ ᴄʜᴜᴢᴇʏ sᴏɴɢ ᴘᴇʜʟʏ ʜᴇ ᴄʜᴀʟ ʀᴀʜᴀ**."
+admin_4 : "🎧 **ʏᴇ ʙᴏʜᴀᴛ ᴀᴄʜᴀ ᴋᴀᴀᴍ ᴋɪʏᴀ** {}!"
+admin_5 : "🙈 **ᴋɪsɪ ɢᴀᴅʜᴇʏ ɴᴇʏ sᴏɴɢ ᴘᴇʜʟʏ sʏ ʜᴇ ʙᴀɴᴅ ᴋᴀʀ ʀᴀᴋʜᴀ**."
+admin_6 : "🎧 **ᴋᴏɴ ɢᴀᴅʜᴀ ᴍᴜᴛᴇ ᴋᴀʀ ɢᴀʏᴀ** {}!"
+admin_7 : "🙈 **ɴᴀʟʟᴇʏ sᴏɴɢ ᴘᴇʜʟʏ ʜᴇ ᴄʜᴀʟ ʀᴀʜᴀ ʜᴀɪ**."
+admin_8 : "🎧 **ʏᴇʜᴏᴏ sᴏɴɢ ᴜɴᴍᴜᴛᴇ ʜᴏ ɢᴀʏᴀ** {}!"
+admin_9 : "🎧 **sᴏɴɢ ᴇɴᴅ ᴋʏᴜ ᴋɪʏᴀ ʙᴇ** {}!"
+admin_10 : "🎧 **ʟᴏ ɢ ᴋᴇʀ ᴅɪʏᴀ sᴋɪᴘ** {}!. **ᴀʙ ᴋᴏᴇ ᴀᴜʀ sᴏɴɢ ʜᴇ ɴɪ ʙᴀᴄʜᴀ**."
 admin_11 : "Error while changing stream to **{0}**\n\nPlease use /skip again."
 admin_12 : "Unable to skip to a specific track because of enabled loop play. Please disable loop play via `/loop disable` to use this feature."
 admin_13 : "Please use numeric numbers for specific tracks, like 1, 2 or 4 etc"
@@ -68,14 +68,14 @@ admin_27 : "Loop Play has been disabled"
 
 # Start
 start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "Hello, My name is {0}. [Support](https://t.me/Asad_Support)\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups."
+start_2 : "Hello, My name is {0}. [Support](https://t.me/AsadSupport) [Network](https://t.me/Shayri_Music_Lovers)\n\nI'm a telegram streaming bot with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nFeel free to add me to your groups."
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
 start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** to **supergroup** and then add me back.\n\n**How to make supergroup?**\n✅ Make your group's chat history **visible** once."
 
 # Help
-help_1 : "Click on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nAll commands can be used with /.\n\Powered © By @AsadSupport, @Alexa_Help @Shayri_Music_Lovers"
+help_1 : "Click on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nAll commands can be used with /.\n\ Powered © By @AsadSupport, @Alexa_Help @Shayri_Music_Lovers"
 help_2 : "Contact me in PM for help."
 
 # Settings
@@ -134,7 +134,7 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🔄 **sᴇᴀʀᴄʜɪɴɢ... ᴘʟᴇᴀs ᴡᴀɪᴛ!"
+play_1 : "🔄 **sᴇᴀʀᴄʜɪɴɢ... ᴘʟᴇᴀs ᴡᴀɪᴛ!**"
 play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
@@ -195,7 +195,7 @@ lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "**Pong!**\n`⚡{0} ms`\n\n<b><u>{1} System Stats:</u></b>\nUptime : {2} \nRam : {3} \nCpu : {4} \nDisk : {5}"
+ping_2 : "🌹 **ᴘᴏɴɢ!**\n`⚡{0} ms`\n\n<b><u>{1} **sᴛᴀᴛᴜs**:</u></b>\n⏰ **ᴜᴘᴛɪᴍᴇ** : {2} \n♈ **ʀᴀᴍ** : {3} \n💻 **ᴄᴘᴜ** : {4} \n💿 **ᴅɪsᴋ** : {5} \n🤭 **sᴇʀᴠᴇʀ** : @Alexa_Help"
 
 # Song
 song_1 : "You can download Music or Video from YouTube only in private chat. Please start me in private chat."
@@ -226,7 +226,7 @@ stream_4 : "🦋 **ꜱᴛᴀʀᴛᴇᴅ ꜱᴛʀᴇᴀᴍɪɴɢ** 🦋\n\n**🏷
 
 #General Buttons
 CLOSE_BUTTON  : "💢 ɴᴇᴛᴡᴏʀᴋ"
-CLOSEMENU_BUTTON  : "𓆩🖤/❤️❛ 𝐀𝐥𝐞𝐱𝐚♕𝐂𝐡𝐚𝐭︎ ᭄ ❜❤️𓆪"
+CLOSEMENU_BUTTON  : "𓆩🖤/❤️❛ 𝐀𝐥𝐞𝐱𝐚♕𝐂𝐡𝐚𝐭︎ ᭄ ❜🖤/❤️𓆪"
 BACK_BUTTON : "⬅ Back"
 UNBAN_BUTTON : "🗑 ᴜɴʙᴀɴ ᴀꜱꜱɪꜱᴛᴀɴᴛ"
 
@@ -241,7 +241,7 @@ S_B_4 : "📨 ᴄʜᴀɴɴᴇʟ"
 S_B_5 : "✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ"
 S_B_6 : "💘 ɢɪᴛ ʀᴇᴘᴏ 💘"
 S_B_7 : "💘 ʙᴏᴛ ᴏᴡɴᴇʀ 💘"
-S_B_8 : "🔎 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ? ᴄᴏᴍᴍᴀɴᴅꜱ ᴍᴇɴᴜ."
+S_B_8 : "🔎 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇɴᴜ."
 
 #Help 
 H_B_1 : "ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ"
@@ -312,10 +312,10 @@ SA_B_1 : "📢 ᴛᴏᴘ 10 ᴄʜᴀᴛ"
 SA_B_2 : "🔢 Tᴏᴘ 10 Tʀᴀᴄᴋꜱ"
 SA_B_3 : "🧛 Tᴏᴘ 10 Uꜱᴇʀꜱ"
 SA_B_4 : "🏷 Tᴏᴘ 10 Hᴇʀᴇ"
-SA_B_5 : "💡 Oᴠᴇʀᴀʟʟ Sᴛᴀᴛꜱ"
-SA_B_6 : "👤 Uꜱᴇʀ Sᴛᴀᴛꜱ"
-SA_B_7 : "🔢 Gʟᴏʙᴀʟ Tᴏᴘ 10 Sᴛᴀᴛꜱ"
-SA_B_8 : "🤖 Bᴏᴛ Sᴛᴀᴛꜱ"
+SA_B_5 : "💡 ᴏᴠᴇʀᴀʟʟ sᴛᴀᴛꜱ"
+SA_B_6 : "👤 ᴜꜱᴇʀ sᴛᴀᴛꜱ"
+SA_B_7 : "🔢 ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 sᴛᴀᴛꜱ"
+SA_B_8 : "🤖 ʙᴏᴛ sᴛᴀᴛꜱ"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
