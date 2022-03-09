@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 import asyncio
 import random
@@ -15,8 +16,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 import config
 from config import clean
-from YukkiMusic import app, userbot
-from YukkiMusic.utils.database import get_served_chats, is_active_chat
+from AasthaMusicBot import app, userbot
+from AasthaMusicBot.utils.database import get_served_chats, is_active_chat
 
 LEAVE_TIME = config.AUTO_LEAVE_ASSISTANT_TIME
 
@@ -198,9 +199,9 @@ async def dont_do_this():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001190342892
-                                and chat_id != -1001733534088
-                                and chat_id != -1001443281821
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
@@ -220,9 +221,9 @@ async def dont_do_this():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001190342892
-                                and chat_id != -1001733534088
-                                and chat_id != -1001443281821
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
@@ -242,9 +243,9 @@ async def dont_do_this():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001190342892
-                                and chat_id != -1001733534088
-                                and chat_id != -1001443281821
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
@@ -264,9 +265,9 @@ async def dont_do_this():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001190342892
-                                and chat_id != -1001733534088
-                                and chat_id != -1001443281821
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
@@ -286,8 +287,8 @@ async def dont_do_this():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001190342892
-                                and chat_id != -1001733534088
+                                and chat_id != -1001717283097
+                                and chat_id != -1001717283097
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:

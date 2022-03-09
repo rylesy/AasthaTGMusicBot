@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 import platform
 from sys import version as pyver
@@ -20,17 +21,17 @@ from pyrogram.types import (InlineKeyboardButton,
 import config
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from strings import get_command, get_string
-from YukkiMusic import YouTube, app
-from YukkiMusic.core.userbot import assistants
-from YukkiMusic.misc import SUDOERS, pymongodb
-from YukkiMusic.utils.database import (get_global_tops, get_lang,
+from AasthaMusicBot import YouTube, app
+from AasthaMusicBot.core.userbot import assistants
+from AasthaMusicBot.misc import SUDOERS, pymongodb
+from AasthaMusicBot.utils.database import (get_global_tops, get_lang,
                                        get_particulars, get_queries,
                                        get_served_chats,
                                        get_served_users, get_sudoers,
                                        get_top_chats, get_topp_users,
                                        is_commanddelete_on)
-from YukkiMusic.utils.decorators.language import languageCB
-from YukkiMusic.utils.inline.stats import (back_stats_markup,
+from AasthaMusicBot.utils.decorators.language import languageCB
+from AasthaMusicBot.utils.inline.stats import (back_stats_markup,
                                            overallback_stats_markup,
                                            top_ten_stats_markup)
 
@@ -98,7 +99,7 @@ async def stats_global(
         vidid,
     ) = await YouTube.details(videoid, True)
     title = title.title()
-    final = f"Top Most Played Track on {MUSIC_BOT_NAME}\n\n**Title:** {title}\n\nPlayed** {co} **times"
+    final = f"**ᴛᴏᴘ ᴍᴏsᴛ ᴘʟᴀʏᴇᴅ ᴛʀᴀᴄᴋᴇ ᴏɴ** {MUSIC_BOT_NAME}\n\n**Title:** {title}\n\n**ᴘʟᴀʏᴇᴅ {co} **times"
     not_sudo = [
         InlineKeyboardButton(
             text=_["CLOSEMENU_BUTTON"],
