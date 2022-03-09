@@ -85,7 +85,7 @@
         },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/jankarikiduniya/AasthaMusicBot",
+        "value": "https://github.com/jankarikiduniya/AasthaMusic",
         "required": true
       },
       "UPSTREAM_BRANCH": {
