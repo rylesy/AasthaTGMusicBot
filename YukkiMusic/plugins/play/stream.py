@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 from pyrogram import filters
 from pyrogram.types import Message
@@ -14,11 +15,11 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils.decorators.play import PlayWrapper
-from YukkiMusic.utils.logger import play_logs
-from YukkiMusic.utils.stream.stream import stream
+from AasthaMusicBot import app
+from AasthaMusicBot.core.call import Alexa
+from AasthaMusicBot.utils.decorators.play import PlayWrapper
+from AasthaMusicBot.utils.logger import play_logs
+from AasthaMusicBot.utils.stream.stream import stream
 
 # Command
 STREAM_COMMAND = get_command("STREAM_COMMAND")
@@ -43,7 +44,7 @@ async def stream_command(
             _["play_2"].format(channel) if channel else _["play_1"]
         )
         try:
-            await Yukki.stream_call(url)
+            await Alexa.stream_call(url)
         except NoActiveGroupCall:
             await mystic.edit_text(
                 "There's an issue with the bot. Please report it to my owner and ask them to check logger group."

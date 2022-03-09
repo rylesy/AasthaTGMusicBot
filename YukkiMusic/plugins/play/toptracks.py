@@ -1,25 +1,26 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import BANNED_USERS
-from YukkiMusic import app
-from YukkiMusic.utils.database import (get_chatmode, get_cmode,
+from AasthaMusicBot import app
+from AasthaMusicBot.utils.database import (get_chatmode, get_cmode,
                                        get_global_tops,
                                        get_particulars, get_userss)
-from YukkiMusic.utils.decorators.language import languageCB
-from YukkiMusic.utils.inline.playlist import (botplaylist_markup,
+from AasthaMusicBot.utils.decorators.language import languageCB
+from AasthaMusicBot.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
-from YukkiMusic.utils.stream.stream import stream
+from AasthaMusicBot.utils.stream.stream import stream
 
 
 @app.on_callback_query(
