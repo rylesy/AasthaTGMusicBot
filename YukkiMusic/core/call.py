@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 import asyncio
 from typing import Union
@@ -23,20 +24,20 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from strings import get_string
-from YukkiMusic import LOGGER, YouTube, app
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import (get_assistant,
+from AasthaMusicBot import LOGGER, YouTube, app
+from AasthaMusicBotc.misc import db
+from AasthaMusicBot.utils.database import (get_assistant,
                                        get_audio_bitrate, get_lang,
                                        get_loop, get_video_bitrate,
                                        group_assistant, mute_off,
                                        remove_active_chat,
                                        remove_active_video_chat,
                                        set_loop)
-from YukkiMusic.utils.exceptions import AssistantErr
-from YukkiMusic.utils.inline.play import (stream_markup,
+from AasthaMusicBot.utils.exceptions import AssistantErr
+from AasthaMusicBot.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from YukkiMusic.utils.stream.autoclear import auto_clean
-from YukkiMusic.utils.thumbnails import gen_thumb
+from AasthaMusicBot.utils.stream.autoclear import auto_clean
+from AasthaMusicBot.utils.thumbnails import gen_thumb
 
 
 async def _clear_(chat_id):
@@ -452,4 +453,4 @@ class Call(PyTgCalls):
             await self.change_stream(client, update.chat_id)
 
 
-Yukki = Call()
+Alexa = Call()
