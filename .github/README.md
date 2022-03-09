@@ -1,6 +1,6 @@
 <h1 align="center"><b>❤️ AASTHA MUSIC BOT ❤️</b></h1>
 
-<h4 align="center">Aastha Music Is A Part Of Alexa Bot Which Is A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ...All Credit Goes To [Team Yukki](https://github.com/TeamYukki)...</h4>
+<h4 align="center">Aastha Music Is A Part Of Alexa Bot Which Is A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ...All Credit Goes To Team Yukki...</h4>
 
 <p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/d8db78924684b505c3048.jpg" width="400"></a></p>
 
@@ -21,10 +21,10 @@
 
 ## Features ❤️”®
 
-- # Gban Added By [Me](https://t.me/Alexa_Help)
-- # Automatically Thambnail Generator By [Team Yukki](https://github.com/TeamYukki)
-- # Customize Button Added [Me](https://t.me/Alexa_Help)
-- # Channel Stream Added 
+- Gban Added By [Me](https://t.me/Alexa_Help)
+- Automatically Thambnail Generator By [Team Yukki](https://github.com/TeamYukki)
+- Customize Button Added [Me](https://t.me/Alexa_Help)
+- Channel Stream Added 
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
