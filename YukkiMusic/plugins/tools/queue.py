@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 import os
 from random import randint
@@ -15,12 +16,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import Carbon, app
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import (get_chatmode, get_cmode,
+from AasthaMusicBot import Carbon, app
+from AasthaMusicBot.misc import db
+from AasthaMusicBot.utils.database import (get_chatmode, get_cmode,
                                        is_active_chat)
-from YukkiMusic.utils.decorators.language import language
-from YukkiMusic.utils.pastebin import Yukkibin
+from AasthaMusicBot.utils.decorators.language import language
+from AasthaMusicBot.utils.pastebin import Asadbin
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
@@ -57,7 +58,7 @@ async def ping_com(client, message: Message, _):
                         f'🏷Title: {x["title"]}\nDur: {x["dur"]}\n\n'
                     )
             if "Queued" in msg:
-                link = await Yukkibin(msg)
+                link = await Asadbin(msg)
                 lines = msg.count("\n")
                 if lines >= 22:
                     car = os.linesep.join(msg.split(os.linesep)[:22])
