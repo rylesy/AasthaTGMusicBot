@@ -25,7 +25,7 @@ from pytgcalls.types.stream import StreamAudioEnded
 import config
 from strings import get_string
 from AasthaMusicBot import LOGGER, YouTube, app
-from AasthaMusicBotc.misc import db
+from AasthaMusicBot.misc import db
 from AasthaMusicBot.utils.database import (get_assistant,
                                        get_audio_bitrate, get_lang,
                                        get_loop, get_video_bitrate,
