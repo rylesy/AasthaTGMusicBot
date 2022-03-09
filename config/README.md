@@ -1,11 +1,11 @@
-# Yukki Music Bot Configs
+# Alexa Music Bot Configs
 
 Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
 
 
 ## Mandatory Vars
 
-- These are the minimum required vars need to setup to make Yukki Music Bot functional.
+- These are the minimum required vars need to setup to make Alexa Music Bot functional.
 
 1. `API_ID` : Get it from my.telegram.org 
 2. `API_HASH`  : Get it from my.telegram.org 
