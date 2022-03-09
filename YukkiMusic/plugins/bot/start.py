@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
@@ -16,17 +17,17 @@ import config
 from config import BANNED_USERS
 from config.config import OWNER_ID
 from strings import get_command, get_string
-from YukkiMusic import Telegram, YouTube, app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.plugins.play.playlist import del_plist_msg
-from YukkiMusic.plugins.sudo.sudoers import sudoers_list
-from YukkiMusic.utils.database import (add_served_chat,
+from AasthaMusicBot import Telegram, YouTube, app
+from AasthaMusicBot.misc import SUDOERS
+from AasthaMusicBot.plugins.play.playlist import del_plist_msg
+from AasthaMusicBot.plugins.sudo.sudoers import sudoers_list
+from AasthaMusicBot.utils.database import (add_served_chat,
                                        add_served_user, get_assistant,
                                        get_lang, get_userss,
                                        is_on_off,
                                        is_served_private_chat)
-from YukkiMusic.utils.decorators.language import language
-from YukkiMusic.utils.inline import (help_pannel, private_panel,
+from AasthaMusicBot.utils.decorators.language import language
+from AasthaMusicBot.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 

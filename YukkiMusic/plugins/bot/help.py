@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 
 from typing import Union
@@ -15,11 +16,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
-from YukkiMusic import app
-from YukkiMusic.utils import help_pannel
-from YukkiMusic.utils.database import get_lang, is_commanddelete_on
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.inline.help import (help_back_markup,
+from AasthaMusicBot import app
+from AasthaMusicBot.utils import help_pannel
+from AasthaMusicBot.utils.database import get_lang, is_commanddelete_on
+from AasthaMusicBot.utils.decorators.language import language, languageCB
+from AasthaMusicBot.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 ### Command
