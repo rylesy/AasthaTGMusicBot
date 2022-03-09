@@ -1,17 +1,18 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
 
-from YukkiMusic.core.bot import YukkiBot
-from YukkiMusic.core.dir import dirr
-from YukkiMusic.core.git import git
-from YukkiMusic.core.userbot import Userbot
-from YukkiMusic.misc import dbb, heroku, sudo
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
+
+from AasthaMusicBot.core.bot import AlexaBot
+from AasthaMusicBot.core.dir import dirr
+from AasthaMusicBot.core.git import git
+from AasthaMusicBot.core.userbot import Userbot
+from AasthaMusicBot.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
@@ -31,7 +32,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = YukkiBot()
+app = AlexaBot()
 
 # Assistant Client
 userbot = Userbot()
