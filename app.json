@@ -69,14 +69,14 @@
         "required": true
       },
         "SUPPORT_GROUP": {
-            "description": "if you have group, then fill here without @",
+            "description": "if you have group, then fill group link",
             "required": true,
-            "value": "Alexa_Help"
+            "value": "https://t.me/Alexa_Help"
         },
         "SUPPORT_CHANNEL": {
-            "description": "if you have channel, then fill the channel username here without @",
+            "description": "if you have channel, then fill the channel link",
             "required": true,
-            "value": "AsadSupport"
+            "value": "https://t.me/AsadSupport"
         },
         "START_IMG_URL": {
             "description": "fill with your telegram account username without @",
