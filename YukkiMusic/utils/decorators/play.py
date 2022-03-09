@@ -1,24 +1,25 @@
 #
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali 
+# Harshit Sharma
+# All rights reserved. Yukki
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
 from strings import get_string
-from YukkiMusic import YouTube, app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (get_chatmode, get_cmode,
+from AasthaMusicBot import YouTube, app
+from AasthaMusicBot.misc import SUDOERS
+from AasthaMusicBot.utils.database import (get_chatmode, get_cmode,
                                        get_lang, get_loop,
                                        get_playmode, get_playtype,
                                        is_commanddelete_on,
                                        is_served_private_chat)
-from YukkiMusic.utils.inline.playlist import botplaylist_markup
+from AasthaMusicBot.utils.inline.playlist import botplaylist_markup
 
 
 def PlayWrapper(command):
