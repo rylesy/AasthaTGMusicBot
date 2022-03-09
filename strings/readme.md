@@ -1,6 +1,6 @@
-# Yukki Multi-Language Support
+# Alexa Multi-Language Support
 
-- These all are the languages currently available in Yukki Music Bot. You can edit or change all strings available.
+- These all are the languages currently available in Alexa Music Bot. You can edit or change all strings available.
 
 | Code | Language | Contributor |
 |-|-------|-------|
@@ -9,7 +9,7 @@
 | hi | Hindi  | Thanks to [TeamYukki](https://t.me/TeamYukki)
 
 
-### We need your help in translating Yukki Music Bot. How to Contribute?
+### We need your help in translating Alexa Music Bot. How to Contribute?
 
 You can edit [`en.yml`](https://github.com/NotReallyShikhar/public/blob/master/strings/langs/en.yml) present in langs folder to your own language and send us the edited file at [@YukkiSupport](https://t.me/YukkiSupport)
 
