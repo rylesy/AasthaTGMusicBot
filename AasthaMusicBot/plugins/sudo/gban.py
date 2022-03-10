@@ -8,7 +8,6 @@
 
 
 
-
 import asyncio
 import os
 import shutil
@@ -45,10 +44,10 @@ async def ban_globally(_, message):
         from_user = message.from_user
         if user.id == from_user.id:
             return await message.reply_text(
-                "ʙᴇᴡᴋᴜғ ᴀᴘɴᴇ ᴀᴀᴘ ᴋᴏ ʜɪ ʙᴀɴ ᴋᴀʀ ʀʜᴀ ʜᴀɪ ɴᴏᴏʙ ᴋɪᴅx!"
+                "You want to gban yourself? How Fool!"
             )
         elif user.id in SUDOERS:
-            await message.reply_text("ᴍᴀɪɴ sᴜᴅᴏ ᴍᴇ ʜᴜ ᴍᴜᴊᴇ ʙʟᴏᴄᴋ ᴋᴀʀɴᴀ ɪᴍᴘᴏsɪʙʟᴇ ʜᴀɪ")
+            await message.reply_text("You want to block a sudo user? KIDXZ")
         else:
             await add_gban_user(user.id)
             served_chats = []
@@ -56,7 +55,7 @@ async def ban_globally(_, message):
             for chat in chats:
                 served_chats.append(int(chat["chat_id"]))
             m = await message.reply_text(
-                f"**ᴍᴀᴊᴅᴜʀ ᴋᴏ ᴋʜᴏᴅɴᴀ ᴀᴜʀ ʙᴀᴘ ᴋᴏ ᴄʜᴏᴅɴᴀ ɴᴀʜɪ sɪᴋᴀᴛᴇ - ᴀʙ ɴɪᴋᴀʟ ᴍᴀᴅʀᴄʜᴏᴅ {user.mention}**\n\nɢʙᴀɴ ᴍᴇ ʟᴀɢɴᴇ ᴡᴀᴋᴀ ᴛɪᴍᴇ : {len(served_chats)}"
+                f"**Alexa Is Initializing Global Ban on {user.mention}**\n\nExpected Time : {len(served_chats)}"
             )
             number_of_chats = 0
             for sex in served_chats:
@@ -69,13 +68,13 @@ async def ban_globally(_, message):
                 except Exception:
                     pass
             ban_text = f"""
-__**ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {MUSIC_BOT_NAME}**__
+__**New Global Ban on {MUSIC_BOT_NAME}**__
 
-**ɢʀᴏᴜᴘ ɴᴀᴍᴇ:** {message.chat.title} [`{message.chat.id}`]
-**sᴜᴅᴏ ᴜsᴇʀ:** {from_user_mention}
-**ʙᴀɴ ʜᴏɴᴇ ᴡᴀʟᴇ ᴋᴀ ɴᴀᴀᴍ:** {user.mention}
-**ʙᴀɴ ʜᴏɴᴇ ᴡᴀʟᴇ ᴋɪ ɪᴅ:** `{user_id}`
-**ɪᴛɴᴇ ᴄʜᴀᴛ sᴇ ɢᴀʏᴀ ʜᴀɪ ᴛᴜ ʙᴇʜɴᴄʜᴏᴅ:** {number_of_chats}"""
+**Origin:** {message.chat.title} [`{message.chat.id}`]
+**Sudo User:** {from_user.mention}
+**Banned User:** {user.mention}
+**Banned User ID:** `{user.id}`
+**Chats:** {number_of_chats}"""
             try:
                 await m.delete()
             except Exception:
@@ -91,13 +90,13 @@ __**ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {MUSIC_BOT_NAME}**__
     mention = message.reply_to_message.from_user.mention
     sudoers = await get_sudoers()
     if user_id == from_user_id:
-        await message.reply_text("ʙᴇᴡᴋᴜғ ᴀᴘɴᴇ ᴀᴀᴘ ᴋᴏ ʜɪ ʙᴀɴ ᴋᴀʀ ʀʜᴀ ʜᴀɪ ɴᴏᴏʙ ᴋɪᴅx!")
+        await message.reply_text("You want to block yourself? How Fool!")
     elif user_id in sudoers:
-        await message.reply_text("ʙᴇᴡᴋᴜғ ᴀᴘɴᴇ ᴀᴀᴘ ᴋᴏ ʜɪ ʙᴀɴ ᴋᴀʀ ʀʜᴀ ʜᴀɪ ɴᴏᴏʙ ᴋɪᴅx")
+        await message.reply_text("You want to block a sudo user? KIDXZ")
     else:
         is_gbanned = await is_gbanned_user(user_id)
         if is_gbanned:
-            await message.reply_text("ᴘᴀʜʟᴇ sᴇ ʜɪ ɢʙᴀɴ ʜᴀɪ ᴅᴜғғᴇʀ.")
+            await message.reply_text("Already Gbanned.")
         else:
             await add_gban_user(user_id)
             served_chats = []
@@ -105,7 +104,7 @@ __**ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {MUSIC_BOT_NAME}**__
             for chat in chats:
                 served_chats.append(int(chat["chat_id"]))
             m = await message.reply_text(
-                f"**ᴀʟɪsʜᴀ ᴊɪ ʙᴀɴ ᴋᴀʀ ʀʜɪ ʜᴀɪɴ ᴀᴘᴋᴏ {mention}**\n\nᴛɪᴍᴇ ᴛᴀᴋᴇɴ : {len(served_chats)}"
+                f"**Alexa Is Initializing Gobal Ban on {mention}**\n\nExpected Time : {len(served_chats)}"
             )
             number_of_chats = 0
             for sex in served_chats:
@@ -118,13 +117,13 @@ __**ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {MUSIC_BOT_NAME}**__
                 except Exception:
                     pass
             ban_text = f"""
-__**ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {MUSIC_BOT_NAME}**__
+__**New Global Ban on {MUSIC_BOT_NAME}**__
 
-**ɢʀᴏᴜᴘ ɴᴀᴍᴇ:** {message.chat.title} [`{message.chat.id}`]
-**sᴜᴅᴏ ᴜsᴇʀ:** {from_user_mention}
-**ʙᴀɴ ʜᴏɴᴇ ᴡᴀʟᴇ ᴋᴀ ɴᴀᴀᴍ:** {mention}
-**ʙᴀɴ ʜᴏɴᴇ ᴡᴀʟᴇ ᴋɪ ɪᴅ:** `{user_id}`
-**ɪᴛɴᴇ ᴄʜᴀᴛ sᴇ ɢᴀʏᴀ ʜᴀɪ ᴛᴜ ʙᴇʜɴᴄʜᴏᴅ:** {number_of_chats}"""
+**Origin:** {message.chat.title} [`{message.chat.id}`]
+**Sudo User:** {from_user_mention}
+**Banned User:** {mention}
+**Banned User ID:** `{user_id}`
+**Chats:** {number_of_chats}"""
             try:
                 await m.delete()
             except Exception:
