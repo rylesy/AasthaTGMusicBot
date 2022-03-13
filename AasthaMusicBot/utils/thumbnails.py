@@ -95,7 +95,7 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 150),
-            "DJ ALISHA",
+            "BY ASAD ALI",
             fill="white",
             stroke_width=2,
             stroke_fill="white",
