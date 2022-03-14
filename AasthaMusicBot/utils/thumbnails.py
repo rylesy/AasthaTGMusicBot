@@ -95,7 +95,7 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 150),
-            "BY ASAD ALI",
+            "BY ALEXA",
             fill="white",
             stroke_width=2,
             stroke_fill="white",
@@ -137,7 +137,7 @@ async def gen_thumb(videoid):
         )
         draw.text(
             (600, 550),
-            f"Owner : Abhimanyu Singh Ranawat",
+            f"Owner : DR Asad Ali",
             (255, 255, 255),
             font=arial,
         )
