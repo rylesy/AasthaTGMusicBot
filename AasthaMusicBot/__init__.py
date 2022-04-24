@@ -11,6 +11,7 @@
 from AasthaMusicBot.core.bot import AlexaBot
 from AasthaMusicBot.core.dir import dirr
 from AasthaMusicBot.core.git import git
+from AasthaMusicBot.core.userbot import Userbot
 from AasthaMusicBot.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
@@ -33,6 +34,8 @@ sudo()
 # Bot Client
 app = AlexaBot()
 
+# Assistant Client
+userbot = Userbot()
 
 from .platforms import *
 
