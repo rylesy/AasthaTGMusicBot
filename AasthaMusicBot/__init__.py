@@ -34,8 +34,6 @@ sudo()
 # Bot Client
 app = AlexaBot()
 
-# Assistant Client
-userbot = Userbot()
 
 from .platforms import *
 
