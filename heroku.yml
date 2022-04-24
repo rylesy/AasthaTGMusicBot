@@ -1,5 +1,5 @@
 build:
   docker:
-    worker: AasthaMusicBot
+    worker: AasthaTGMusicBot
 run:
   worker: bash start
