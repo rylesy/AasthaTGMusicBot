@@ -23,3 +23,6 @@ wget
 youtube-search
 youtube-search-python
 yt-dlp
+flask==2.1.1
+werkzeug==2.0.3
+pyrogram==1.4.12
