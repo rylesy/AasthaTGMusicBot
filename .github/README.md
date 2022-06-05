@@ -1,4 +1,4 @@
-<h1 align="center"><b>❤️ AASTHA MUSIC BOT ❤️</b></h1>
+<h1 align="center"><b>❤️ UNO x MUSIC BOT ❤️</b></h1>
 
 <h4 align="center">Aastha Music Is A Part Of Alexa Bot Which Is A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ...All Credit Goes To Team Yukki...</h4>
 
